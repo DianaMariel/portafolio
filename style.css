@@ -1,0 +1,23 @@
+:root {
+    --primary: #2563eb;
+    --dark: #1e293b;
+    --light: #f8fafc;
+}
+
+body { font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; color: var(--dark); background: var(--light); }
+
+nav { display: flex; justify-content: space-between; padding: 1rem 5%; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.1); position: sticky; top: 0; }
+nav ul { display: flex; list-style: none; gap: 20px; }
+nav a { text-decoration: none; color: var(--dark); font-weight: 500; }
+
+header { height: 60vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; background: white; }
+.highlight { color: var(--primary); }
+.btn { margin-top: 20px; padding: 10px 25px; background: var(--primary); color: white; text-decoration: none; border-radius: 5px; }
+
+section { padding: 4rem 10%; }
+h2 { border-bottom: 2px solid var(--primary); display: inline-block; margin-bottom: 2rem; }
+
+.tech-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; }
+.tech-card { background: white; padding: 1rem; text-align: center; border-radius: 8px; border: 1px solid #e2e8f0; }
+
+.project-item { background: white; padding: 1.5rem; border-radius: 8px; border-left: 5px solid var(--primary); }
